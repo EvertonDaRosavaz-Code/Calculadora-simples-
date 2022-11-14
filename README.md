@@ -1,8 +1,11 @@
-# Calculadora-simples-
-Calculadora simples
-
-
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <style>
 
 *{
     margin: 0;
@@ -17,7 +20,7 @@ body{
     min-height: 100vh;
 }
 
-<style>
+
 input{
     border-top-left-radius: 10px;
     width: 100px;
@@ -62,9 +65,9 @@ button:hover{
     border-radius: 5px;
 }
     </style>
-
 </head>
 <body>
+    
     <main>
         
         <section class="conteiner_total">
@@ -80,7 +83,7 @@ button:hover{
                     <option value="/">/</option>    
                     <option value="**">**</option>                
                 </select>
-                <input type="number" id="number_2">
+                <input type="number" id="number_2" style="text-align: center ;">
             </div>
 
             <button id="button">Enter</button>
@@ -148,5 +151,6 @@ button:hover{
         }
 
     </script>
+    
 </body>
 </html>
